@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C75C3D2A2BA81F84009EEAF1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798D7F02BA7E97100BD98A9 /* GameScene.swift */; };
+		C75C3D2E2BA84B19009EEAF1 /* GameScene+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C3D2D2BA84B19009EEAF1 /* GameScene+Extension.swift */; };
+		C798D7D82BA7E90D00BD98A9 /* FlappyBird Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C798D7D72BA7E90D00BD98A9 /* FlappyBird Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C798D7DD2BA7E90D00BD98A9 /* FlappyBirdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798D7DC2BA7E90D00BD98A9 /* FlappyBirdApp.swift */; };
+		C798D7DF2BA7E90D00BD98A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798D7DE2BA7E90D00BD98A9 /* ContentView.swift */; };
+		C798D7E12BA7E90E00BD98A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C798D7E02BA7E90E00BD98A9 /* Assets.xcassets */; };
+		C798D7E42BA7E90E00BD98A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C798D7E32BA7E90E00BD98A9 /* Preview Assets.xcassets */; };
+		C798D7EF2BA7E95600BD98A9 /* bird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C798D7EE2BA7E95600BD98A9 /* bird.atlas */; };
+		C7EF31522BA94FD900E842C3 /* flappy-bird-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7EF31512BA94FD900E842C3 /* flappy-bird-font.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C798D7D92BA7E90D00BD98A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C798D7CB2BA7E90D00BD98A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C798D7D62BA7E90D00BD98A9;
+			remoteInfo = "FlappyBird Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C798D7EA2BA7E90E00BD98A9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C798D7D82BA7E90D00BD98A9 /* FlappyBird Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C75C3D2D2BA84B19009EEAF1 /* GameScene+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+Extension.swift"; sourceTree = "<group>"; };
+		C798D7D12BA7E90D00BD98A9 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C798D7D72BA7E90D00BD98A9 /* FlappyBird Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlappyBird Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C798D7DC2BA7E90D00BD98A9 /* FlappyBirdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdApp.swift; sourceTree = "<group>"; };
+		C798D7DE2BA7E90D00BD98A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C798D7E02BA7E90E00BD98A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C798D7E32BA7E90E00BD98A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C798D7EE2BA7E95600BD98A9 /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bird.atlas; sourceTree = "<group>"; };
+		C798D7F02BA7E97100BD98A9 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C7EF31512BA94FD900E842C3 /* flappy-bird-font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "flappy-bird-font.ttf"; sourceTree = "<group>"; };
+		C7EF31532BA94FF500E842C3 /* FlappyBird-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FlappyBird-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C798D7D42BA7E90D00BD98A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C798D7CA2BA7E90D00BD98A9 = {
+			isa = PBXGroup;
+			children = (
+				C798D7DB2BA7E90D00BD98A9 /* FlappyBird Watch App */,
+				C798D7D22BA7E90D00BD98A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C798D7D22BA7E90D00BD98A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C798D7D12BA7E90D00BD98A9 /* FlappyBird.app */,
+				C798D7D72BA7E90D00BD98A9 /* FlappyBird Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C798D7DB2BA7E90D00BD98A9 /* FlappyBird Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				C7EF31532BA94FF500E842C3 /* FlappyBird-Watch-App-Info.plist */,
+				C798D7DC2BA7E90D00BD98A9 /* FlappyBirdApp.swift */,
+				C798D7DE2BA7E90D00BD98A9 /* ContentView.swift */,
+				C798D7F02BA7E97100BD98A9 /* GameScene.swift */,
+				C75C3D2D2BA84B19009EEAF1 /* GameScene+Extension.swift */,
+				C7EF31502BA94E0C00E842C3 /* Resource */,
+				C798D7E22BA7E90E00BD98A9 /* Preview Content */,
+			);
+			path = "FlappyBird Watch App";
+			sourceTree = "<group>";
+		};
+		C798D7E22BA7E90E00BD98A9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C798D7E32BA7E90E00BD98A9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7EF31502BA94E0C00E842C3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C798D7E02BA7E90E00BD98A9 /* Assets.xcassets */,
+				C7EF31512BA94FD900E842C3 /* flappy-bird-font.ttf */,
+				C798D7EE2BA7E95600BD98A9 /* bird.atlas */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C798D7D02BA7E90D00BD98A9 /* FlappyBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C798D7EB2BA7E90E00BD98A9 /* Build configuration list for PBXNativeTarget "FlappyBird" */;
+			buildPhases = (
+				C798D7CF2BA7E90D00BD98A9 /* Resources */,
+				C798D7EA2BA7E90E00BD98A9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C798D7DA2BA7E90D00BD98A9 /* PBXTargetDependency */,
+			);
+			name = FlappyBird;
+			productName = FlappyBird;
+			productReference = C798D7D12BA7E90D00BD98A9 /* FlappyBird.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C798D7D62BA7E90D00BD98A9 /* FlappyBird Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C798D7E72BA7E90E00BD98A9 /* Build configuration list for PBXNativeTarget "FlappyBird Watch App" */;
+			buildPhases = (
+				C798D7D32BA7E90D00BD98A9 /* Sources */,
+				C798D7D42BA7E90D00BD98A9 /* Frameworks */,
+				C798D7D52BA7E90D00BD98A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlappyBird Watch App";
+			productName = "FlappyBird Watch App";
+			productReference = C798D7D72BA7E90D00BD98A9 /* FlappyBird Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C798D7CB2BA7E90D00BD98A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C798D7D02BA7E90D00BD98A9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C798D7D62BA7E90D00BD98A9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = C798D7CE2BA7E90D00BD98A9 /* Build configuration list for PBXProject "FlappyBird" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C798D7CA2BA7E90D00BD98A9;
+			productRefGroup = C798D7D22BA7E90D00BD98A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C798D7D02BA7E90D00BD98A9 /* FlappyBird */,
+				C798D7D62BA7E90D00BD98A9 /* FlappyBird Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C798D7CF2BA7E90D00BD98A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C798D7D52BA7E90D00BD98A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C798D7EF2BA7E95600BD98A9 /* bird.atlas in Resources */,
+				C798D7E42BA7E90E00BD98A9 /* Preview Assets.xcassets in Resources */,
+				C7EF31522BA94FD900E842C3 /* flappy-bird-font.ttf in Resources */,
+				C798D7E12BA7E90E00BD98A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C798D7D32BA7E90D00BD98A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75C3D2A2BA81F84009EEAF1 /* GameScene.swift in Sources */,
+				C75C3D2E2BA84B19009EEAF1 /* GameScene+Extension.swift in Sources */,
+				C798D7DF2BA7E90D00BD98A9 /* ContentView.swift in Sources */,
+				C798D7DD2BA7E90D00BD98A9 /* FlappyBirdApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C798D7DA2BA7E90D00BD98A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C798D7D62BA7E90D00BD98A9 /* FlappyBird Watch App */;
+			targetProxy = C798D7D92BA7E90D00BD98A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C798D7E52BA7E90E00BD98A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C798D7E62BA7E90E00BD98A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C798D7E82BA7E90E00BD98A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlappyBird Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z629PZ4XVL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FlappyBird-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = FlappyBird;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moonjs.FlappyBird.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		C798D7E92BA7E90E00BD98A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlappyBird Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z629PZ4XVL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FlappyBird-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = FlappyBird;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moonjs.FlappyBird.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		C798D7EC2BA7E90E00BD98A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z629PZ4XVL;
+				INFOPLIST_KEY_CFBundleDisplayName = FlappyBird;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moonjs.FlappyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C798D7ED2BA7E90E00BD98A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z629PZ4XVL;
+				INFOPLIST_KEY_CFBundleDisplayName = FlappyBird;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moonjs.FlappyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C798D7CE2BA7E90D00BD98A9 /* Build configuration list for PBXProject "FlappyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C798D7E52BA7E90E00BD98A9 /* Debug */,
+				C798D7E62BA7E90E00BD98A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C798D7E72BA7E90E00BD98A9 /* Build configuration list for PBXNativeTarget "FlappyBird Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C798D7E82BA7E90E00BD98A9 /* Debug */,
+				C798D7E92BA7E90E00BD98A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C798D7EB2BA7E90E00BD98A9 /* Build configuration list for PBXNativeTarget "FlappyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C798D7EC2BA7E90E00BD98A9 /* Debug */,
+				C798D7ED2BA7E90E00BD98A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C798D7CB2BA7E90D00BD98A9 /* Project object */;
+}
