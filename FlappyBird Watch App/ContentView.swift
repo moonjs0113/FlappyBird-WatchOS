@@ -13,7 +13,9 @@ struct ContentView: View{
         GeometryReader { geometryProxy in
             let scene = GameScene(size: geometryProxy.size)
             SpriteView(scene: scene)
-            .onTapGesture { scene.tapGesture() }
+            .onTapGesture {
+                scene.tapGesture()
+            }
         }
         .ignoresSafeArea()
     }
